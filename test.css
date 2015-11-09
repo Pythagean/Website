@@ -1,0 +1,44 @@
+#h1 {
+  
+}
+
+.header {
+  background-color:#7DB9B3; 
+  width:96%;
+  font-family:'Lato';
+}
+
+.background {
+  background-color:#2E3837;
+}
+
+.body {
+  background-color:#166678; 
+  width:96%;
+  font-family:'Lato';
+}
+
+table {
+  width:96%;
+  border: 3px solid;
+  border-color: #2E3837;
+}
+
+th, td {
+    padding: 10px;
+    border: 2px solid;
+    border-color: #2E3837;
+
+} 
+
+
+
+
+
+
+/*
+#2E3837
+#166678
+#7DB9B3
+#E1F6F4
+*/
