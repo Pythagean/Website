@@ -12,6 +12,7 @@ body {
   height: 100%;
   min-height: 100%;
   margin: 0;
+  background-color:#D1E6E9;
 }
 
 
@@ -30,7 +31,7 @@ body {
 }
 
 .container {
-  background-color:#E2EFF1; 
+  background-color:#D1E6E9; 
   width:100%;
   font-family:'Lato';
   min-height:100%;
@@ -54,7 +55,8 @@ th, td {
 } 
 
 .navbar-default .navbar-nav>li>a {
-  color:#FFFFFF;
+  color:#D1E6E9;
+  font-weight:bold;
 }
 
 .navbar-default {
@@ -87,14 +89,40 @@ iframe {
 }
 
 .post-preview, .post-subtitle {
-  color:#E2EFF1;
+  color:#D1E6E9;
   background-color:#5483A5;
 }
 
 .post-title {
   color:#37566C;
   background-color:#9CB8CD;
-  align:right;
+}
+
+.post-title:hover {
+  text-decoration:none;
+}
+
+.blog-top {
+  background-color:#37566C;
+  padding:10px;
+}
+
+h2 {
+  line-height:1.5;
+  padding-left:10px;
+  padding-right:10px;
+  text-decoration:none;
+  -webkit-transition: outline-color 0.5s;
+  outline-color:transparent;
+  float:left;
+}
+
+h2:hover {
+  outline-color:#37566C;
+  color:#37566C;
+  outline-style:solid;
+  outline-width: 3px;
+  text-decoration:none; 
 }
 
 .img-thumbnail {
@@ -102,13 +130,56 @@ iframe {
   border-color:#37566C;
   height:150px;
   width:200px;
-  margin-top:10px;
+  margin-top:30px;
   margin-bottom:10px;
 }
 
-.blog-descriptions {
-  
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
 }
+
+.blog-description {
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.post-meta {
+    padding-left:10px;
+    padding-bottom:10px;
+    padding-top:10px;
+    background-color: #37566C;
+}
+
+.navbar .brand, .navbar .nav > li > a {
+  outline-color:transparent;
+  -webkit-transition: outline-color 0.5s;
+}
+
+.navbar .brand, .navbar .nav > li > a:hover {
+  color:#D1E6E9;
+  outline-color:#9CB8CD;
+  outline-style:solid;
+  outline-width: 3px;
+  outline-offset: -10px;
+}
+
+.readMore {
+  color:#37566C;
+  outline-color:transparent;
+  -webkit-transition: outline-color 0.5s;
+}
+
+.readMore:hover {
+  color:#37566C;
+  outline-color:#37566C;
+  outline-style:solid;
+  outline-width: 2px;
+  outline-offset: 3px;
+  text-decoration:none; 
+}
+
 
 
 /*
@@ -123,6 +194,6 @@ Medium Light
 #9CB8CD
 
 Light
-#E2EFF1
+#D1E6E9
 
 */
