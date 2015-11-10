@@ -68,11 +68,23 @@ th, td {
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   background-color:#9CB8CD;
   color:#37566C;
-  
+    outline-color:#37566C;
+  color:#37566C;
+  outline-style:solid;
+  outline-width: 3px;
+  outline-offset:-9px;
 }
 
 .navbar navbar-default navbar-fixed-top {
   background-color:#37566C;
+}
+
+.active {
+  outline-color:#37566C;
+  color:#37566C;
+  outline-style:solid;
+  outline-width: 3px;
+  outline-offset:-5px;
 }
 
 iframe {
@@ -170,6 +182,7 @@ h2:hover {
 .blog-description {
   padding-left:10px;
   padding-right:10px;
+  text-align:left;
 }
 
 .post-meta {
@@ -205,6 +218,30 @@ h2:hover {
   outline-width: 2px;
   outline-offset: 3px;
   text-decoration:none; 
+}
+
+.photography-gallery {
+  background-color:#37566C;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.photography-thumb {
+  width:200px;
+  margin:5px;
+  border-style:solid;
+  border-color:#1A2934;
+  border-width:4px;
+}
+
+.photography-title {
+  background-color:#9CB8CD;
+  padding-bottom:5px;
+  padding-top:5px;
+  margin-left:10px;
+  margin-bottom:5px;
+  margin-right:10px;
+  margin-top:0px;
 }
 
 
