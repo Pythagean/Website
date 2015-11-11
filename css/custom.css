@@ -6,6 +6,23 @@ h1 {
 h3 {
   line-height:1.2;
   color:#1A2934;
+  
+}
+
+.h3-link:hover {
+  outline-color:#1A2934;
+  color:#1A2934;
+  outline-style:solid;
+  outline-width: 2px;
+  text-decoration:none; 
+  outline-offset:3px;
+}
+
+.h3-link {
+  text-decoration:none;
+  -webkit-transition: outline-color 0.5s;
+  outline-color:transparent;
+  float:left;
 }
 
 html {
@@ -101,11 +118,12 @@ th, td {
 }
 
 iframe {
-  padding:10px;
+  padding:5px;
   background-color:#9CB8CD;
-  width:320px;
-  height:240px;
+  width:100%;
+
   margin-top:10px;
+  margin-left:10px;
 }
 
 .purchase-btn {
@@ -145,9 +163,31 @@ iframe {
   text-decoration:none;
 }
 
-.blog-top {
+.blog-title-bar {
+  background-color:#9CB8CD;
+  padding:5px;
+
+  margin-right:20px;
+  margin-bottom:10px;
+  margin-top:10px;
+  width:98%;
+  float:left;
+}
+
+.blog-top-bar {
   background-color:#37566C;
   padding:10px;
+  width:97%;
+}
+
+.blog-title {
+  color:#1A2934;
+  background-color:#9CB8CD;
+  text-align:left;
+  margin-bottom:7px;
+  margin-right:10px;
+  margin-top:5px;
+  margin-left:10px;
 }
 
 .col-md-offset-1 {
@@ -193,6 +233,32 @@ h2:hover {
   padding-left:10px;
   padding-right:10px;
   text-align:left;
+  color:#FFFFFF;
+}
+
+.model-description {
+  padding-left:10px;
+  padding-right:10px;
+  text-align:left;
+  color:#FFFFFF;
+  margin-left:-5px;
+  margin-top:10px;
+}
+
+.album-link {
+  color:#FFFFFF;
+  text-decoration:none;
+  -webkit-transition: outline-color 0.5s;
+  outline-color:transparent;
+}
+
+.album-link:hover {
+  outline-color:#FFFFFF;
+  color:#FFFFFF;
+  outline-style:solid;
+  outline-width: 2px;
+  outline-offset:3px;
+  text-decoration:none; 
 }
 
 .post-meta {
@@ -200,6 +266,7 @@ h2:hover {
     padding-bottom:10px;
     padding-top:10px;
     background-color: #37566C;
+    text-align:left;
 }
 
 .navbar .brand, .navbar .nav > li > a {
@@ -246,9 +313,10 @@ h2:hover {
 
 .photography-title {
   margin-left:10px;
-  margin-bottom:5px;
+  margin-bottom:4px;
   margin-right:10px;
   margin-top:0px;
+  color:#1A2934;
 }
 
 .photography-top-bar {
@@ -256,9 +324,39 @@ h2:hover {
   padding:10px;
 }
 
+.photography-title-bar {
+  background-color:#9CB8CD;
+  padding:5px;
+  margin-left:20px;
+  margin-right:20px;
+  margin-bottom:10px;
+}
+
 .photography-bottom-bar {
   background-color:#37566C;
   padding:10px;
+}
+
+
+
+.model-title-bar {
+  background-color:#9CB8CD;
+  padding:5px;
+
+  margin-bottom:3px;
+  margin-top:10px;
+  margin-right:10px;
+  margin-left:-5px;
+  
+}
+
+.model-title {
+  margin-left:10px;
+  margin-bottom:0px;
+  margin-right:10px;
+  margin-top:0px;
+  color:#1A2934;
+
 }
 
 
